@@ -1,7 +1,7 @@
 version: "3"
 services:
   distcc:
-    image: jameswalmsley/distcc-farm:latest
+    image: jameswalmsley/build-farm:latest
     network_mode: "host"
     ports:
       - "3632:3632"
